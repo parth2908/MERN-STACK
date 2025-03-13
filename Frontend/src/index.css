@@ -1,0 +1,32 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* Import Google Fonts */
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap'); */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: whitesmoke;
+  /* background: linear-gradient(to bottom, #FFDCCC, #B5A8D5); */
+  background-repeat: no-repeat;
+  max-height: 2160px;
+  width: 100vw;
+  overflow-x: hidden;
+  /* background-size: cover; */
+  background-position: center;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

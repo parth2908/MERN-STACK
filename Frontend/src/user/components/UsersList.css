@@ -1,0 +1,105 @@
+.userList-container {
+    height: 100vh;
+}
+
+.users-list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 90%;
+    /* max-width: 50rem; */
+    display: flex;
+    justify-content: center;
+    overflow-x: auto; /* Allow smooth scrolling */
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding-left: 200px;
+}
+ 
+.navbar {
+    background-color: #f8f9fa !important;
+    padding: 10px;
+    height:100px !important;
+    width: 1000px;
+  }
+
+  .container-fluid {
+    display: flex;
+    justify-content: center;
+  }
+
+  .d-flex{
+    margin-top: 90px;
+    margin-bottom: 02px;
+    padding-left: 50px;
+    /* height: 100%; */
+    width: 100%;
+    padding-right: 30px;
+    justify-content: center;
+
+  }
+
+  .abc{
+    margin-top: -10px;
+    /* background: linear-gradient(to bottom, #FFDCCC, #B5A8D5); */
+  }
+
+  .search-butt{
+    margin-top: 15px;
+    margin-right: 30px;
+    height: 39px;
+    margin-left: 10px;
+    
+  }
+
+  .form-control{
+    margin-left: 20px;
+  }
+
+  .slider-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    margin-top: -150px;
+}
+
+.carousel-img {
+  height: 400px; /* Fixed height */
+  object-fit: cover; /* Ensures the image covers the space without distortion */
+}
+/* Slider Navigation Buttons */
+.slider-btn {
+  background-color: #6c757d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 18px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.slider-btn:hover {
+  background-color: #5a6268;
+}
+
+/* Disabled Button */
+.slider-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.users-list::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel-inner{
+  margin-top: 0px;
+}

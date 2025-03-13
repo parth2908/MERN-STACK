@@ -1,0 +1,54 @@
+
+ .place-list-bg {
+  background: linear-gradient(to bottom, #edfffd, #52AEAE);
+  height: 100vh;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  overflow: hidden; /* Hide items outside the visible area */
+}
+
+.place-slider-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out; /* Smooth transition for sliding */
+}
+
+.place-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.place-list li {
+  width: 100%; /* Each item takes up 50% of the container width */
+}
+
+.slider-arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  z-index: 1;
+}
+
+.slider-arrow.left {
+  left: 10px; /* Position the left arrow on the left */
+}
+
+.slider-arrow.right {
+  right: 10px; /* Position the right arrow on the right */
+}
+
+.slider-arrow:disabled {
+  background: rgba(0, 0, 0, 0.2); /* Dim the background when disabled */
+  cursor: not-allowed; /* Change cursor to show it's not clickable */
+}

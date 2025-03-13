@@ -1,0 +1,43 @@
+
+
+/* .auth-container {
+  background: linear-gradient(to bottom, rgb(138, 226, 217), rgb(42, 119, 130)) !important;
+  min-height: 100vh;
+} */
+
+
+.authentication__header {
+    color: white;
+    text-align: center;
+  }
+ 
+  
+  .authentication {
+    width: 90%;
+    max-width: 30rem;
+    margin: 7rem auto;
+    text-align: center;
+  }
+  
+  .authentication form {
+    margin-bottom: 1rem;
+
+  }
+
+  #auth-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+
+  #auth{
+    background: linear-gradient(to bottom, rgb(138, 226, 217), rgb(42, 119, 130));
+    min-height: 100vh;
+    width: 100%;
+    margin-top: -50px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: auto;
+
+  }
